@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "declaration": true,
+      "strict": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es6",
+      "jsx": "react",
+      "alwaysStrict": true,
+      "sourceMap": false,
+      "outDir": "./build",
+      "rootDirs": [
+        "src"
+      ],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "lib": [
+        "dom",
+        "es2015",
+        "es5",
+        "es6",
+        "esnext.asynciterable",
+        "es2018.promise",
+        "es2019"
+      ],
+      "typeRoots": [
+        "./@types",
+        "node_modules/@types"
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "./@types"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
